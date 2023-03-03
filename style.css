@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Overpass", sans-serif;
+  display: grid;
+  place-content: center;
+  gap: 2rem;
+  background-color: #121417;
+  color: #ffffff;
+}
+main {
+  max-width: 22rem;
+  font-size: 0.938rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #252d37;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.hidden {
+  display: none;
+  /* visibility: hidden; */
+}
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+/* RATING COMPONENT */
+.star-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(124, 135, 152, 0.1);
+  padding: 1rem;
+  border-radius: 50%;
+}
+.rating-heading {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.rating-text {
+  line-height: 1.7;
+  color: #959eac;
+}
+.rating {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+
+  color: #959eac;
+}
+.rating span {
+  background-color: rgba(124, 135, 152, 0.1);
+
+  padding: 0.7rem 1.2rem;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.3s;
+}
+.rating span:hover {
+  cursor: pointer;
+  background-color: #fb7413;
+  color: #fff;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #fb7413;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 5rem;
+}
+.btn:active,
+.btn:hover {
+  background-color: #fff;
+  color: #fb7413;
+  transition: all 0.3s;
+}
+.grey {
+  background-color: #959eac !important;
+  color: #fff;
+}
+/* THANK YOU COMPONENT */
+.thank-you-state {
+  /* text-align: center; */
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0.75rem;
+}
+.thank-you-img {
+  margin-top: 1rem;
+  width: 50%;
+}
+.user-rating {
+  color: #fb7413;
+  background-color: rgba(149, 158, 172, 0.125);
+  padding: 0.6rem 0.8rem;
+  border-radius: 1.5rem;
+  margin-top: 0.65rem;
+}
+.thank-you {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 1.2rem;
+}
+.thank-you-msg {
+  text-align: center;
+  color: #959eac;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
