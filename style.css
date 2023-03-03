@@ -47,11 +47,12 @@ footer a {
 }
 .rating-heading {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .rating-text {
   line-height: 1.7;
   color: #959eac;
+  font-size: 0.8rem;
 }
 .rating {
   margin: 1rem 0;
